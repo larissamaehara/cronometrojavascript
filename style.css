@@ -1,29 +1,28 @@
 * {
-  font-family: 'Black Ops One', cursive;
+  font-family: 'Space Mono', monospace;
   padding: 20px;
   margin: 20;
+  background-image: url('universe.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
-  height: 100vh;
-  padding-top: 3rem;
-  background-color: white
 }
 
 .container h1 {
   font-size: 100px;
-  color: #074707;
+  color: white;
 }
 
 .timer {
   display: flex;
   font-size: 200px;
   font-weight: bold;
-  color: #333;
+  color: white;
 }
 
 .time {
@@ -32,46 +31,40 @@
   justify-content: center;
   border-radius: 10px;
   margin-right: 10px;
-  color: #022009;
+  color: white;
   min-width: 90px;
 }
 
 .separator {
   font-size: 180px;
   padding: 0 10px;
-  color: #0a420d;
+  color: white;
 }
 
 #milliseconds {
   font-size: 50px;
-  color: #1a853d;
+  color: whitesmoke;
 }
 
 .buttons {
+  clear: both;
+  background-color: black;
   display: flex;
-  gap: 1rem;
+  gap: 80px;;
 }
 
-.btn {
-  padding: 10px 20px;
-  font-size: 18px;
+.btn { 
+  padding: 20px 30px;
+  font-size: 30px;
   font-weight: bold;
   border-radius: 30px;
   cursor: pointer;
-  border: 1px solid #ccc;
-  transition: all 0.2s ease-in-out;
+  border: 2px solid white;
+  transition: all 0.1s ease-in-out;
+  color: white;
 }
 
 .btn:hover {
-  transform: scale(1.1);
-}
-
-#startBtn {
-  background-color: #05381a;
-  color: #fff;
-}
-
-#resetBtn {
-  background-color: #1a853d;
-  color: blanchedalmond;
+  color: white;
+  scale: (1.1);
 }
